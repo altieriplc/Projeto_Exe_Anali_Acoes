@@ -1,0 +1,32 @@
+meu_projeto/
+│
+├── main.py               # Arquivo principal que inicia o programa.
+├── gui/
+│   ├── __init__.py       # Torna a pasta um módulo Python.
+│   ├── base.py           # Classes ou funções comuns da interface gráfica.
+│   ├── widgets.py        # Componentes personalizados do Tkinter.
+│   └── windows/
+│       ├── __init__.py   # Torna a pasta um módulo Python.
+│       ├── main_window.py # Janela principal.
+│       └── other_window.py # Outras janelas secundárias.
+│
+├── assets/
+│   ├── images/           # Arquivos de imagem (.png, .jpg, etc.).
+│   ├── icons/            # Ícones para botões ou janelas.
+│   └── styles/           # Arquivos CSS-like ou temas do Tkinter.
+│
+├── data/
+│   ├── config.json       # Arquivo de configuração.
+│   └── database.db       # Banco de dados SQLite ou outro usado pelo projeto.
+│
+├── logic/
+│   ├── __init__.py       # Torna a pasta um módulo Python.
+│   ├── data_handling.py  # Funções de manipulação de dados.
+│   ├── calculations.py   # Lógica ou operações de backend.
+│   └── api.py            # Lógica para chamadas externas (se aplicável).
+│
+└── tests/
+    ├── __init__.py       # Torna a pasta um módulo Python.
+    ├── test_gui.py       # Testes unitários para a interface gráfica.
+    ├── test_logic.py     # Testes para o backend.
+    └── test_integration.py # Testes de integração do projeto.
